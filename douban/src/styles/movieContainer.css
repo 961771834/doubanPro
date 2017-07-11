@@ -1,0 +1,54 @@
+.movie_container{
+    height: 100%;
+    display: flex;
+}
+
+.moive_menu{
+    width: 20%;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.moive_menu a{
+    color: white;
+    padding-top: 1.5em;
+}
+
+.moive_menu a:hover{
+    color: red;
+    font-weight: 700;
+}
+
+.movie_right{
+    width: 80%;
+    background: yellow;
+}
+
+
+.movie_search {
+    height: 8%;
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie_search input{
+    width: 80%;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    text-indent: .5em;
+}
+
+.movie_content {
+    background: blueviolet;
+    height: 92%;  
+}
+
+.movie_container .movie-current{
+    font-weight: 700;
+    color: lightcoral;
+}

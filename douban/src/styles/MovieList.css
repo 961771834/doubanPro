@@ -1,0 +1,20 @@
+.MovieList-content{
+     overflow-y: scroll;
+     height: 100%;
+}
+
+.MovieList-item{
+    padding-top: .4em;
+    display: flex;
+}
+
+.movielist-isShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+.movielist-isHide{
+    display:none;
+}
